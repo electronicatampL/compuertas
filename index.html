@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="carga-removebg-preview.png" type="image/png">
+</head>
+
+<body>
+    <div class="container">
+        <h1>COMPUERTAS LÓGICAS</h1>
+        <br>
+        <h2>¿Qué son las compuertas lógicas?</h2>
+        <p>Son componentes electrónicos que realizan operaciones básicas de
+            lógica booleana, procesando señales digitales (0 y 1). Funcionan con voltajes donde 0 es baja tensión y 1 es
+            alta tensión.</p>
+        <br>
+        <h3>Tipos de compuertas lógicas:</h3>
+        <ul>
+            <li>AND (Y): Solo da 1 si todas sus entradas son 1.</li>
+            <li>Ejemplo: 1 y 1 = 1, pero 1 y 0 = 0.</li>
+            <li>OR (O): Da 1 si al menos una entrada es 1.</li>
+            <li>Ejemplo: 1 o 0 = 1.</li>
+            <li>NOT (NO): Invierte el valor (0 a 1, 1 a 0).</li>
+            <lI>Ejemplo: NO 1 = 0.</lI>
+            <li>NAND (NO Y): Es una AND invertida (da 0 solo si todas son 1).</li>
+            <li>Ejemplo: 1 y 1 = 0.</li>
+            <li>NOR (NO O): Es una OR invertida (solo da 1 si todas son 0).</li>
+            <li>Ejemplo: 0 o 0 = 1.</li>
+            <li>XOR (O exclusiva): Da 1 si las entradas son diferentes.</li>
+            <li>Ejemplo: 1 y 0 = 1, pero 1 y 1 = 0.</li>
+            <li>XNOR (O exclusiva negada): Da 1 solo si las entradas son iguales.</li>
+            <li>Ejemplo: 1 y 1 = 1, 0 y 0 = 1.</li>
+        </ul>
+        <div class="image-container">
+            <img src="Compuertas-lógicas-768x576.jpg" alt="Compuertas-lógicas" class="Lógic">
+        </div>
+        <h1>Aplicaciones comunes:</h1>
+        <br>
+        <ul>
+            <li>Electrónica digital: Calculadoras, relojes, computadoras.</li>
+            <li>Control de sistemas: Encendido de motores, control de luces.</li>
+            <li>Circuitos de seguridad: Alarmas o bloqueos.</li>
+            <li>Comunicación: Codificación y decodificación de datos.</li>
+        </ul>
+        <div class="image-container">
+            <img src="circ.jpeg" alt="Circuitos-lógic" class="COMPUERTAS">
+        </div>
+        <br>
+        <h1>Funciones clave:</h1>
+        <ul>
+            <li>Procesan señales binarias.</li>
+            <li>Toman decisiones lógicas en los circuitos.</li>
+            <li>Combinadas crean sistemas más complejos como sumadores o microprocesadores.</li>
+        </ul>
+        <br>
+        <h1>TERMINALES DE CADA COMPUERTA</h1>
+        <h2>Compuerta AND</h2>
+        <ul>
+            <li>Entradas: 2 o más</li>
+            <lI>Salida: 1</lI>
+            <li>Función: Da 1 solo si todas las entradas son 1</li>
+            <li>Ejemplo: A = 1, B = 1 → salida = 1</li>
+        </ul>
+        <div class="image-container">
+            <img src="and tabla de la verdad.png" alt="Terminales-AND" class="AND-TERMINALES">
+        </div>
+        <h2> Compuerta NOT</h2>
+        <ul>
+            <li>Entrada: 1</li>
+            <li>Salida: 1</li>
+            <li>Salida: 1</li>
+            <li>Función: Invierte el valor de la entrada.</li>
+            <li>Ejemplo: A = 1 → salida = 0</li>
+        </ul>
+        <div class="image-container">
+            <img src="not terminales.png" alt="compuerta-not" class="Compuerta-not">
+        </div>
+        <h2>Compuerta OR</h2>
+        <ul>
+            <li>Entradas: 2 o más</li>
+            <li>Salida: 1</li>
+            <li>Función: Da 1 si al menos una entrada es 1.</li>
+            <li>jemplo: A = 1, B = 0 → salida = 1</li>
+        </ul>
+        <div class="image-container">
+            <img src="Compuerta-OR.png" alt="compuerta-or" class="OR">
+        </div>
+        <h2>Compuerta NAND</h2>
+        <ul>
+            <li>Entradas: 2 o más</li>
+            <li>Salida: 1</li>
+            <li>Función: Es la inversa de AND, da 0 solo si todas las entradas son 1.</li>
+            <li>Ejemplo: A = 1, B = 1 → salida = 0</li>
+        </ul>
+        <div class="image-container">
+            <img src="NAND.png" alt="NAND-LÓGIC" class="NAND">
+        </div>
+        <h2> Compuerta NOR</h2>
+        <ul>
+            <li>Entradas: 2 o más</li>
+            <li>Salida: 1</li>
+            <li>unción: Es la inversa de OR, da 1 solo si todas las entradas son 0.</li>
+            <li>Ejemplo: A = 0, B = 0 → salida = 1</li>
+        </ul>
+        <div class="image-container">
+            <img src="NOR.png" alt="nor-lógic" class="NOR">
+        </div>
+        <h2>Compuerta XOR (O Exclusiva)</h2>
+        <ul>
+            <li>Entradas: 2</li>
+            <li>Salida: 1</li>
+            <li>Función: Da 1 solo si las entradas son diferentes.</li>
+            <li>Ejemplo: A = 1, B = 0 → salida = 1</li>
+        </ul>
+        <div class="image-container">
+            <img src="XOR.png" alt="Compuerta-xor-exclusiva" class="XOR">
+        </div>
+        <h2>Compuerta XNOR (O Exclusiva Negada)</h2>
+        <ul>
+            <li>Entradas: 2</li>
+            <li>Salida: 1</li>
+            <li>Función: Da 1 solo si las entradas son iguales.</li>
+            <li>Ejemplo: A = 1, B = 1 → salida = 1</li>
+        </ul>
+        <div class="image-container">
+            <img src="XNOR.png" alt="XNOR" class="XNORR">
+        </div>
+        <h3>Resumen de terminales básicos:</h3>
+        <ul>
+            <li>VCC: Alimentación positiva (5V comúnmente).</li>
+            <li>GND: Tierra.</li>
+            <li>Entradas (A, B, C...): Donde se conectan los datos binarios.</li>
+            <li>Salida (Q): La respuesta lógica del circuito.</li>
+        </ul>
+        <div class="image-container">
+            <img src="general.png" alt="general" class="general">
+        </div>
+    </div>
+</body>
+
+</html>
